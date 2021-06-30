@@ -4,3 +4,6 @@ There were just a little problem. I wanted to make something better than only a 
 
 # So, Earth-Chan, what does it means?
 Earth-Chan is the embodiment of the Earth. Our idea was to make people feeling compassion for Earth-Chan, by saying that if we continue to contaminate the Earth, she will suffer. That was a cool idea, then we did this webpage within 2 days.
+
+# This little project is now closed...
+... and that, for a long, very long moment. I'll probably never modify again what I have done. So, we can say that this project is finished, and it is already so cool, that I don't need to add something else.
