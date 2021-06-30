@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Whitney;
+    src: url("../ressources/fonts/whitneybold.woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Whitney;
+    src: url("../ressources/fonts/whitneylight.woff");
+    font-weight: lighter;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.background {
+    min-height: 650px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)),url(https://images2.alphacoders.com/904/thumb-1920-904303.png);
+    background-color: #7289da;
+    background-size: 2000px;
+    background-position: center;
+    position: relative;
+}
+.infos {
+    text-align: center;
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 175px;
+}
+.infos .title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 110%;
+    color: #fff;
+}
+.waves {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.buttonUse {
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.buttonGrey {
+    background: #23272a;
+    color: #fff;
+}
+.buttonLarge {
+    line-height: 24px;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+}
+.button {
+    cursor: pointer;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition-property: background-color,color,box-shadow,mix-blend-mode;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    border: none;
+}
+.greyBackground {
+    background: #23272a;
+    padding: 70px 0;
+}
+.greyBackground .title {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 60px;
+    color: #fff;
+}
+.greyBackground .text {
+    font-size: 30px;
+    max-width: 450px;
+    margin-top: 24px;
+    color: #fff;
+}
+.mediumMargin {
+    margin-top: 70px;
+}
+.smallPadding {
+    padding-top: 50px;
+}
+section {
+    margin-top: 200px;
+    min-height: 400px;
+    position: relative;
+}
+.smallMarginBottom {
+    margin-bottom: 50px;
+}
+.smallMargin-pc {
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0 10%;
+}
+.container .div-1 {
+    display: flex;
+    justify-content: end;
+}
+.intro .title {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 60px;
+    max-width: 450px;
+    color: #23272a;
+}
+.cost .title {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 60px;
+    max-width: 450px;
+    color: #23272a;
+}
+.infrastruktur .title {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 60px;
+    max-width: 450px;
+    color: #23272a;
+}
+.join-us .title {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 60px;
+    max-width: 450px;
+    color: #23272a;
+}
+.intro .text {
+    text-align: left;
+    color: #23272a;
+    font-size: 30px;
+    max-width: 450px;
+    margin-top: 24px;
+}
+.cost .text {
+    text-align: left;
+    color: #23272a;
+    font-size: 30px;
+    max-width: 450px;
+    margin-top: 24px;
+}
+.infrastruktur .text {
+    text-align: left;
+    color: #23272a;
+    font-size: 30px;
+    max-width: 450px;
+    margin-top: 24px;
+}
+.join-us .text {
+    text-align: left;
+    color: #23272a;
+    font-size: 30px;
+    max-width: 450px;
+    margin-top: 24px;
+    margin-bottom: 200px;
+}
+.container .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.shadowed {
+    -o-box-shadow: 12px 12px 29px #555;
+    -icab-box-shadow: 12px 12px 29px #555;
+    -khtml-box-shadow: 12px 12px 29px #555;
+    -moz-box-shadow: 12px 12px 29px #555;
+    -webkit-box-shadow: 12px 12px 29px #555;
+    box-shadow: 12px 12px 29px #555;
+}
+.paddingWave {
+    padding-bottom: 150px;
+}
+.mediumMargin {
+    margin-top: 70px;
+}
+footer {
+    background-color: #23272a;
+    color: #fff;
+    min-height: 150px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0 10%;
+}
+.copyright {
+    font-weight: 500;
+    font-size: 18px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.fa-heart {
+    color: #f54542;
+}
